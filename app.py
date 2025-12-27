@@ -69,7 +69,7 @@ logo = ctk.CTkImage(
 )
 
 ctk.CTkLabel(app, image=logo, text="").pack(pady=20)
--
+
 site_entry = ctk.CTkEntry(app, width=400, placeholder_text="Website")
 site_entry.pack(pady=10)
 
@@ -114,3 +114,4 @@ def refresh():
 refresh()
 
 app.mainloop()
+
