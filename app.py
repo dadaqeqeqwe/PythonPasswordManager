@@ -89,7 +89,7 @@ def save():
     p = password_entry.get()
 
     if not s or not e or not p:
-        messagebox.showerror("Error", "Fill all fields")
+        messagebox.showerror("Error", "Заполните все поля!")
         return
 
     save_password(s, e, p)
@@ -114,4 +114,5 @@ def refresh():
 refresh()
 
 app.mainloop()
+
 
